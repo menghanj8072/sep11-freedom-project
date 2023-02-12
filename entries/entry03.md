@@ -59,15 +59,7 @@ function producePipes(){
 Here is the result I have so far. I didn't get really far on the tutorial. I still have to add scores, things for the `end scenes`, etc.
 ![flappy-pipe](https://replit-docs-images.util.repl.co/images/tutorials/35-flappy-bird/moving-pipes.gif)
 
-
-
-
-
-
-
-
-
-
+I'm still in stage 2 researching the problem in the engineering design process. I'm still research and learning about my tool. One new skill I learned was "**How to Google**" because I understanded how to google tutorials that will help me learning Kaboom Js. My next step would be to finish the flappy bird tutorial and to tinker with the code since I focus on finishing the tutorial first and didn't really tinker much. Things that I might tinker was to change the code for the flappy bird or the pipes or to add more obstacles into the game.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
