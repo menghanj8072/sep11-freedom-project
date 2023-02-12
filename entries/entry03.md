@@ -1,7 +1,7 @@
 # Entry 3
 ##### 2/6/2023
 
-During the winter break, I have found a new tutorial to follow. The tutorial was about making Flappy Bird Game in Kaboom Js. In order for me to begin the tutorial, I have to make a new project first in replit. After doing that I begin downloading the sprites and assest files that I will need for making the Flappy Bird Game. The first step in the tutorial was to import the sprites and sound by using `loadSprite()` and `loadSound()`. Then I begin adding scenes to the game. Scenes are like different stages in Kaboom. As mention in the tutorial, the Flappy Bird Game has 3 scenes: start, main game, and end. So I follow the steps and created the scene by doing:
+During the winter break, I have found a new tutorial to follow. The tutorial was about making [Flappy Bird Game](https://docs.replit.com/tutorials/build-flappy-bird-with-kaboom) in Kaboom Js. In order for me to begin the tutorial, I have to make a new project first in replit. After doing that I begin downloading the sprites and assest files that I will need for making the Flappy Bird Game. The first step in the tutorial was to import the sprites and sound by using `loadSprite()` and `loadSound()`. Then I begin adding scenes to the game. Scenes are like different stages in Kaboom. As mention in the tutorial, the Flappy Bird Game has 3 scenes: start, main game, and end. So I follow the steps and created the scene by doing:
 ```JS
 scene("game", () => {
 });
@@ -59,7 +59,7 @@ function producePipes(){
 Here is the result I have so far. I didn't get really far on the tutorial. I still have to add scores, things for the `end scenes`, etc.
 ![flappy-pipe](https://replit-docs-images.util.repl.co/images/tutorials/35-flappy-bird/moving-pipes.gif)
 
-I'm still in stage 2 researching the problem in the engineering design process. I'm still research and learning about my tool. One new skill I learned was "**How to Google**" because I understanded how to google tutorials that will help me learning Kaboom Js. My next step would be to finish the flappy bird tutorial and to tinker with the code since I focus on finishing the tutorial first and didn't really tinker much. Things that I might tinker was to change the code for the flappy bird or the pipes or to add more obstacles into the game.
+I'm still in **stage 2 researching the problem** in the **engineering design process**. I'm still research and learning about my tool. One new skill I learned was "**How to Google**" because I understanded how to google tutorials that will help me learning Kaboom Js. My next step would be to finish the flappy bird tutorial and to tinker with the code since I focus on finishing the tutorial first and didn't really tinker much. Things that I might tinker was to change the code for the flappy bird or the pipes or to add more obstacles into the game.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
