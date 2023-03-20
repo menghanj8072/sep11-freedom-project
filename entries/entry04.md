@@ -1,6 +1,6 @@
 # Entry 4
 ##### 3/13/2023
-Last time I wasn't able to finish the flappy bird tutorial. But now I have finished it. I have added score and collision detection. For the scoring system every time when the bird flies past a pipe, the score will increase by 1. In order to make the system, I have to add a custom property called `passed` inside the producePipes function. Then I have to save the score inside a variable and display it on the screen so that the player can know their score. After doing that, I have to do the last step to finish the scoring system. I need to check if any pipes have moved past flappy bird, and update their `passed` flag, so that the system won't count them more than once. So I need to modify the onUpdate() event handler by adding a `if` statement.
+Last time I wasn't able to finish the [flappy bird tutorial](https://docs.replit.com/tutorials/kaboom/build-flappy-bird-with-kaboom). But now I have finished it. I have added score and collision detection. For the scoring system every time when the bird flies past a pipe, the score will increase by 1. In order to make the system, I have to add a custom property called `passed` inside the producePipes function. Then I have to save the score inside a variable and display it on the screen so that the player can know their score. After doing that, I have to do the last step to finish the scoring system. I need to check if any pipes have moved past flappy bird, and update their `passed` flag, so that the system won't count them more than once. So I need to modify the onUpdate() event handler by adding a `if` statement.
 Here is the code for the scoring system:
 ```JS
 //Add into the producePipes function
@@ -42,24 +42,9 @@ scene("gameover", (score) => {
 });
 
 ```
-After finishing the flappy bird tutorial, I have to work on the MVP for my freedom project. I didn't really make much progress on it yet. I only added a start button and also a background for the game. I'm still working on adding instructions and a name for the game.
+After finishing the flappy bird tutorial, I have to work on the MVP for my freedom project. I didn't really make much progress on it yet. I only added a start button and also a background for the game. I have been using [KaboomJs website](https://kaboomjs.com/doc/intro) and my notes from the tutorial as a resource for helping me building my MVP. I'm still working on adding instructions and a name for the game.
 
 Right now I'm currently in stage **2 Research the Problem** and **5 create a prototype**. I'm learning about my FP tool and making my MVP(Minimum Viable Product) for my FP at the same time. One new skill I learned was "**Time Mangement**". I learned when I should focus on learning my tool and when I should work on my MVP.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 [Previous](entry03.md) | [Next](entry05.md)
