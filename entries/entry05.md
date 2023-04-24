@@ -87,7 +87,7 @@ add([
     location.reload();
   });
 ```
-After finishing the game I found it boring. So I added something new to the game. 
+After finishing the game I found it boring. So I added something new to the game. I added a potion into the game. When the player collides with the potion, the speed of the fish and the score will increase. 
 
 
 
