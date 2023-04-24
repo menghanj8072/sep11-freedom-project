@@ -1,7 +1,7 @@
 # Entry 5
 ##### 4/17/2023
 
-In previous blog, I talked about finish following the Flappy Bird tutorial and starting building my MVP for my freedom project. After that I didn't research for another tutorial to follow because I have to focus on the MVP. My idea for my freedom project was to build a game similar to flappy bird. However, as im working on it the result didn't turn out to be what I wanted. So I changed my idea to make a fish eat fish game. I first start off by creating three scenes for the game: **intro, game, and gameover**. Then I added backgrounds for the three scenes by using `add()`. Inside the intro scene, I created a "start" button and when the player clicks on it, it will link to the game.
+In previous blog, I talked about finish following the [Flappy Bird tutorial](https://docs.replit.com/tutorials/kaboom/build-flappy-bird-with-kaboom) and starting building my MVP for my freedom project. After that I didn't research for another tutorial to follow because I have to focus on the MVP. My idea for my freedom project was to build a game similar to flappy bird. However, as im working on it the result didn't turn out to be what I wanted. So I changed my idea to make a fish eat fish game. I first start off by creating three scenes for the game: **intro, game, and gameover**. Then I added backgrounds for the three scenes by using `add()`. Inside the intro scene, I created a "start" button and when the player clicks on it, it will link to the game.
 ```JS
 scene("intro", () => {
 
@@ -87,18 +87,29 @@ add([
     location.reload();
   });
 ```
-After finishing the game I found it boring. So I added something new to the game. I added a potion into the game. When the player collides with the potion, the speed of the fish and the score will increase. 
+After finishing the game I found it boring. So I added something new to the game. I added a potion into the game. When the player collides with the potion, the speed of the fish and the score will increase. The speed will return back to normal after 5 seconds. I use the same functions that I used used for fish and bomb. Inside the `onCollide()` function for potion, I added the `onCollide()` function of the fish and set the score to +5. I also added when the player is out of the map, the game will be over.
+```JS
+player.collides("fish1", (fish1) => {
+    score +=5;
+    scoreText.text = score;
+    destroy(fish1)
+    });
+    
+wait(5, () => {
+      speedX =  speedX + 300;
+      fishLoop = fishLoop + 1;
+	})
+  
+  player.onUpdate(() => {
+    if (player.pos.y > height() + 30 ||     player.pos.y < -30) {
+    go("gameover", score);
+  }
+});
+```
+Final result: [here](https://fp-mvp.menghanj8072.repl.co/)
 
 
-
-
-
-
-
-
-
-
-
+Since this blog is about building my MVP, I'm currently in stage **5 Create a prototype and 6 Test and evaluate the prototype** in the **enginnering design process**. One new skill I learned was "**Consideration**" because after finishing the game, I consider if people will think it's boring and I tried to add new things to make people enjoy this game.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
