@@ -74,6 +74,20 @@ After adding the fish and the bomb into the game, I have some how keep track of 
 score +=1;
 scoreText.text = score;
 ```
+For the last part, when the game is over I have to display the player's score and add a way to make them play again. I used `add()` function and `text()` to display the player's score. To make the player play again, I use `onKeyPress()` so everytime when the player presses "space" the page will reresh and they will turn back to the intro scene.
+```JS
+add([
+    text("gameover!\n" + "score:" + score + "\n" + "Press space to play again", {
+      size: 45,
+    }),
+  ]);
+
+  onKeyPress("space", () => {
+    // go("game");
+    location.reload();
+  });
+```
+After finishing the game I found it boring. So I added something new to the game. 
 
 
 
