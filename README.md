@@ -2,16 +2,16 @@
 by X
 
 ## Context
-The "Freedom Project" for SEP11 is all about X. The purpose of this blog is to X.
+The "Freedom Project" for SEP11 is all about learning and exploring new tools that will be useful for our project idea. The purpose of this blog is to show my process from beginning to the final product.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For my project, I am making a game using KaboomJS. This blog will walk through my process of independently studying of KaboomJs in order to make my final product.
 
 ## Links
 
-Product
+Product: https://fp-mvp.menghanj8072.repl.co/
 
-Presentation
+Presentation: https://docs.google.com/presentation/d/1-w2vGD2DQpte47OWSo3JkwgT690Y3U3nplCrG-dxNtw/edit#slide=id.p
 
 ## Implications
 X
