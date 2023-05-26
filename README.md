@@ -9,9 +9,9 @@ For my project, I am making a game using KaboomJS. This blog will walk through m
 
 ## Links
 
-Product: [Here is the link to Final Product] (https://fp-mvp.menghanj8072.repl.co/)
+Product: [Here is the link to Final Product](https://fp-mvp.menghanj8072.repl.co/)
 
-Presentation: [Here is the link to the presentation] (https://docs.google.com/presentation/d/1-w2vGD2DQpte47OWSo3JkwgT690Y3U3nplCrG-dxNtw/edit#slide=id.p)
+Presentation: [Here is the link to the Presentation](https://docs.google.com/presentation/d/1-w2vGD2DQpte47OWSo3JkwgT690Y3U3nplCrG-dxNtw/edit#slide=id.p)
 
 ## Implications
 X
