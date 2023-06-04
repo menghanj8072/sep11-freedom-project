@@ -1,5 +1,5 @@
 # SEP11 Freedom Project
-by X
+by MengHan Jiang
 
 ## Context
 The "Freedom Project" for SEP11 is all about learning and exploring new tools that will be useful for our project idea. The purpose of this blog is to show my process from beginning to the final product.
