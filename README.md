@@ -14,7 +14,7 @@ Product: [Here is the link to Final Product](https://fp-mvp.menghanj8072.repl.co
 Presentation: [Here is the link to the Presentation](https://docs.google.com/presentation/d/1-w2vGD2DQpte47OWSo3JkwgT690Y3U3nplCrG-dxNtw/edit#slide=id.p)
 
 ## Implications
-My freedom project is a game similar to the game of hungry shark. This game has a friendly environment and its suitable for any age. It also includes some positive impact on society. If someone ever felt bored, they can try this new game out. It will help reduce their loneliness or boredom. They can also improve their relationships with their friends by competing the score they got. Overall, this is a friendly game that is available to anyone.
+My freedom project is a game similar to the game of hungry shark. This game has a friendly environment and its suitable for any age. It also includes some positive impact on society. If someone ever felt bored, they can try this new game out. It will help reduce their loneliness or boredom. They can also improve their relationships with their friends by competing the score they got. Overall, this is a friendly game that is available for everyone.
 
 ---
 
